@@ -8,7 +8,9 @@
 > 管理后台：[https://shop.aplx.top/admin/](https://shop.aplx.top/admin/)
 > 测试账号：admin / admin123
 
-> 如果这个项目对您有帮助，麻烦点个Star支持一下，谢谢喵！
+> 如果这个项目对您有帮助，麻烦点个 Star 支持一下喵~
+
+[![Stars](https://img.shields.io/github/stars/mubai0122/faka)](https://github.com/mubai0122/faka)
 
 ## 环境要求
 
