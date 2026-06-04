@@ -1,0 +1,141 @@
+/**
+ * 轻量级简约H5发卡网
+ * 
+ * @author 沐白
+ * @link https://github.com/mubai0122/faka
+ * @license MIT
+ */
+.category-bar {
+    background: white;
+    border-radius: 12px;
+    margin: 24px 0;
+    padding: 8px 16px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.cate-item {
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.cate-item:hover {
+    background: #f3f4f6;
+    color: #4b5563;
+}
+
+.cate-item.active {
+    background: #4b5563;
+    color: white;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+    margin: 24px 0 48px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+.product-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.product-badge {
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 20px;
+    background: #f3f4f6;
+    color: #6b7280;
+}
+
+.product-badge.out-stock {
+    background: #fee2e2;
+    color: #ef4444;
+}
+
+.product-badge.low-stock {
+    background: #fef3c7;
+    color: #f59e0b;
+}
+
+.product-desc {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 16px;
+    min-height: 60px;
+}
+
+.product-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-price {
+    display: flex;
+    align-items: baseline;
+}
+
+.price-symbol {
+    font-size: 14px;
+    color: #4b5563;
+}
+
+.price-value {
+    font-size: 24px;
+    font-weight: 700;
+    color: #4b5563;
+}
+
+.btn-buy {
+    background: #4b5563;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-buy:hover:not(.disabled) {
+    background: #374151;
+}
+
+.btn-buy.disabled {
+    background: #d1d5db;
+    cursor: not-allowed;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: #9ca3af;
+}

@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+</IfModule>
+
+<FilesMatch "(config\.php|install\.lock|install\.sql|\.htaccess|\.env)">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+RedirectMatch 403 ^/(logs|includes)/.*$
+
+Options -Indexes
+DirectoryIndex index.php
+
+php_value upload_max_filesize 20M
+php_value post_max_size 20M
