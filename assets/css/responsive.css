@@ -1,0 +1,56 @@
+/**
+ * 轻量级简约H5发卡网
+ * 
+ * @author 沐白
+ * @link https://github.com/mubai0122/faka
+ * @license MIT
+ */
+@media (max-width: 768px) {
+    .mobile-menu-btn {
+        display: block;
+    }
+    
+    .nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        flex-direction: column;
+        padding: 16px 20px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    
+    .nav.active {
+        display: flex;
+    }
+    
+    .product-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    
+    .page-card {
+        padding: 20px;
+    }
+    
+    .info-row {
+        flex-direction: column;
+    }
+    
+    .info-label {
+        width: auto;
+        margin-bottom: 4px;
+    }
+    
+    .category-list {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 8px;
+    }
+    
+    .cate-item {
+        white-space: nowrap;
+    }
+}

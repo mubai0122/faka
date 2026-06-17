@@ -1,0 +1,104 @@
+/**
+ * 轻量级简约H5发卡网
+ * 
+ * @author 沐白
+ * @link https://github.com/mubai0122/faka
+ * @license MIT
+ */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.btn-primary {
+    background: #4b5563;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #374151;
+}
+
+.btn-secondary {
+    background: #e5e7eb;
+    color: #374151;
+}
+
+.btn-secondary:hover {
+    background: #d1d5db;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid #d1d5db;
+    color: #6b7280;
+}
+
+.btn-outline:hover {
+    border-color: #4b5563;
+    color: #4b5563;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.btn-copy {
+    background: #4b5563;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.btn-copy:hover {
+    background: #374151;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-muted {
+    color: #9ca3af;
+}
+
+.loading-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255,255,255,0.9);
+    z-index: 2000;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loading-overlay.active {
+    display: flex;
+}
+
+.loading-spinner {
+    width: 48px;
+    height: 48px;
+    border: 3px solid #e5e7eb;
+    border-top-color: #4b5563;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}

@@ -1,0 +1,30 @@
+/**
+ * 轻量级简约H5发卡网
+ * 
+ * @author 沐白
+ * @link https://github.com/mubai0122/faka
+ * @license MIT
+ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f5f5f7;
+    color: #1c1c1e;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}

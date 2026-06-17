@@ -1,0 +1,172 @@
+/**
+ * 轻量级简约H5发卡网
+ * 
+ * @author 沐白
+ * @link https://github.com/mubai0122/faka
+ * @license MIT
+ */
+.page-card {
+    background: white;
+    border-radius: 12px;
+    padding: 32px;
+    margin: 24px 0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.page-title h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.page-title p {
+    color: #6b7280;
+}
+
+.query-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.order-result {
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid #e5e7eb;
+}
+
+.order-result h3 {
+    margin-bottom: 20px;
+}
+
+.order-info {
+    background: #f9fafb;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.info-row {
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.info-row:last-child {
+    border-bottom: none;
+}
+
+.info-label {
+    width: 100px;
+    font-weight: 500;
+    color: #6b7280;
+}
+
+.info-value {
+    flex: 1;
+    color: #1f2937;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.status-success {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.status-pending {
+    background: #fed7aa;
+    color: #92400e;
+}
+
+.card-info-box {
+    background: #f9fafb;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-info-title {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.card-content {
+    background: white;
+    padding: 16px;
+    border-radius: 8px;
+    font-family: monospace;
+    font-size: 14px;
+    word-break: break-all;
+    white-space: pre-wrap;
+    margin-bottom: 16px;
+    border: 1px solid #e5e7eb;
+}
+
+.success-card {
+    text-align: center;
+}
+
+.success-icon {
+    width: 80px;
+    height: 80px;
+    background: #d1fae5;
+    color: #10b981;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    margin: 0 auto 20px;
+}
+
+.contact-info {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    background: #f9fafb;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.contact-icon {
+    font-size: 24px;
+}
+
+.contact-label {
+    font-weight: 500;
+    color: #6b7280;
+}
+
+.contact-value {
+    flex: 1;
+    color: #1f2937;
+}
+
+.btn-contact {
+    background: #4b5563;
+    color: white;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 24px;
+}

@@ -1,0 +1,13 @@
+# 语言识别
+*.php linguist-language=PHP
+*.js linguist-language=JavaScript
+*.css linguist-language=CSS
+*.html linguist-language=HTML
+*.sql linguist-language=SQL
+
+# 统计代码量
+*.php linguist-vendored=false
+*.js linguist-vendored=false
+*.css linguist-vendored=false
+*.html linguist-vendored=false
+*.sql linguist-vendored=false
